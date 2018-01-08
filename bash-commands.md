@@ -6,6 +6,18 @@
 echo $0
 ```
 
+### Verify the PID of current instance of shell
+
+```bash
+echo "$$"
+```
+
+### Verify the process having the PID
+
+```bash
+ps -p "$$"
+```
+
 ### Replace blank line in VIM
 
 ```bash
