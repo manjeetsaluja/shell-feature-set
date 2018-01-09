@@ -18,10 +18,46 @@ echo "$$"
 ps -p "$$"
 ```
 
-### Replace blank line in VIM
+### Verify the logname command prints the user-name of the current user
 
 ```bash
-g/^$/ d
+$ Logname
+```
+
+### Verify the uname command prints certain system information
+
+```bash
+$ uname -a
+```
+
+### Verify the passwd command is used for changing passwords for user accounts.
+
+```bash
+$ passwd manjeet
+```
+
+### Verify the grep command searches for a specified pattern in a file (or files) and displays in output lines containing that pattern.
+
+```bash
+$ grep Hello test.txt  
+```
+
+### Verify the id command prints user and group information for the current user or specified username.
+
+```bash
+$ id manjeet  
+```
+
+### Verify the pwd command displays the name of current/working directory.
+
+```bash
+$ pwd 
+```
+
+### The cd command is used to change the directory name
+
+```bash
+$ cd [directory-name] 
 ```
 
 ### Verify a specific port in DOS
